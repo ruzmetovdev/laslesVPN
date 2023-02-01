@@ -1,0 +1,226 @@
+@import "./common.css";
+@import "./heder.css";
+@import "./footer.css";
+
+main {
+  background-color: #ffffff;
+}
+
+/* section */
+.choz {
+  padding-top: 80px;
+}
+.chooz h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.chooz p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+}
+/* s */
+.fre img {
+  margin-top: 97px;
+}
+.plan-card {
+  text-align: center;
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+  gap: 20px;
+}
+.plan {
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+.plan h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+  margin-top: 30px;
+  margin-left: -10px;
+  margin-bottom: 30px;
+}
+.tru-lin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+.tru-lin p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+/* s */
+.card-btn {
+  margin-top: 130px;
+  padding-bottom: 60px;
+}
+.card-btn h2 {
+  padding-bottom: 40px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+.card-btn a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 13px 67px;
+  color: #f53838;
+  border: 2px solid #f53838;
+  border-radius: 50px;
+}
+.card-btn a:hover {
+  background-color: #f53838;
+  color: white;
+}
+/* section */
+.content {
+  margin-top: 150px;
+}
+.content h1 {
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+}
+.content p {
+  margin-top: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+}
+.map img {
+  margin-top: 155px;
+  width: 100%;
+}
+.regon {
+  margin-top: 109px;
+}
+.regon .reg {
+  text-align: center;
+  gap: 20px;
+}
+/* section karusel */
+.owl-carousel {
+  margin-top: 60px;
+  width: 100%;
+  padding-bottom: 200px;
+}
+.carusel {
+  width: 370px;
+  height: 230px;
+  padding: 20px;
+  background: #ffffff;
+  border: 2px solid #f53838;
+  border-radius: 10px;
+  gap: 50px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.c-img img {
+  width: 50px;
+  height: 50px;
+}
+.last-p {
+  margin-top: 26px;
+}
+
+.yul {
+  display: flex;
+  gap: 11px;
+  margin-left: 108px;
+}
+#custm button.owl-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #dde0e4;
+}
+#custm button.active {
+  width: 60px;
+  border-radius: 10px;
+  background-color: red;
+}
+#custm .owl-dots {
+  position: absolute;
+  bottom: 230px;
+  display: flex;
+  gap: 10px;
+}
+#custm .owl-prev span {
+  border: 2px solid #f53838;
+  padding: 21px 20px;
+  border-radius: 50%;
+  font-size: 20px;
+
+  color: red;
+}
+.owl-nav {
+  margin: 50px 0;
+  text-align: right;
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+}
+#custm .owl-next span {
+  border: 2px solid #f53838;
+  padding: 21px 20px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: red;
+}
+/* section foter */
+
+/* media */
+@media (min-width: 950px) {
+  .plan-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .regon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 47px;
+  }
+}
